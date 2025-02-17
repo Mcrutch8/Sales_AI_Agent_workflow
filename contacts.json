@@ -1,0 +1,32 @@
+[
+  {
+    "id": "83922279130",
+    "properties": {
+      "createdate": "2025-02-13T16:18:26.531Z",
+      "email": "bh@hubspot.com",
+      "firstname": "Brian",
+      "hs_object_id": "83922279130",
+      "lastmodifieddate": "2025-02-13T16:18:47.994Z",
+      "lastname": "Halligan (Sample Contact)"
+    },
+    "createdAt": "2025-02-13T16:18:26.531Z",
+    "updatedAt": "2025-02-13T16:18:47.994Z",
+    "archived": false,
+    "day_count": 1
+  },
+  {
+    "id": "83931895485",
+    "properties": {
+      "createdate": "2025-02-13T16:18:26.221Z",
+      "email": "emailmaria@hubspot.com",
+      "firstname": "Maria",
+      "hs_object_id": "83931895485",
+      "lastmodifieddate": "2025-02-13T16:18:47.993Z",
+      "lastname": "Johnson (Sample Contact)"
+    },
+    "createdAt": "2025-02-13T16:18:26.221Z",
+    "updatedAt": "2025-02-13T16:18:47.993Z",
+    "archived": false,
+    "day_count": 1
+  }
+]
