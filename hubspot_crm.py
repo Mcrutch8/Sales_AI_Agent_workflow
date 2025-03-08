@@ -1,5 +1,5 @@
-import requests
 import json
+from security import safe_requests
 
 # Purpose:
 #This file retrieves contacts from HubSpot, extracts key details, and stores them in contacts.json. 
@@ -20,7 +20,7 @@ headers = {
 
 def fetch_contacts():
     """Fetch contacts from HubSpot and store them in a JSON file."""
-    response = requests.get(url, headers=headers)
+    response = safe_requests.get(url, headers=headers)
     
     if response.status_code == 200:
         contacts = response.json().get("results", [])
