@@ -20,7 +20,7 @@ headers = {
 
 def fetch_contacts():
     """Fetch contacts from HubSpot and store them in a JSON file."""
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers, timeout=60)
     
     if response.status_code == 200:
         contacts = response.json().get("results", [])
